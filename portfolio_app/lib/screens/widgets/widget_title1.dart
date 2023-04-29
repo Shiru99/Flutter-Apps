@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class TitleWidget extends StatelessWidget {
+class WidgetTitle1 extends StatelessWidget {
   final String title;
   final String subTitle;
 
-  const TitleWidget({super.key, required this.title, required this.subTitle});
+  const WidgetTitle1({super.key, required this.title, required this.subTitle});
 
   @override
   Widget build(BuildContext context) {
@@ -17,12 +17,11 @@ class TitleWidget extends StatelessWidget {
         child: LayoutBuilder(
           builder: (BuildContext context, BoxConstraints constraints) {
             double screenWidth = MediaQuery.of(context).size.width;
-            double screenHeight = MediaQuery.of(context).size.height;
 
             double fontSize = 18;
 
-            if(screenWidth < 500){
-              fontSize = 18 * screenWidth/550 ;
+            if (screenWidth < 500) {
+              fontSize = 18 * screenWidth / 550;
             }
 
             return Row(
@@ -42,8 +41,7 @@ class TitleWidget extends StatelessWidget {
                   fit: BoxFit.fill,
                   child: Text(
                     subTitle,
-                    style:
-                        TextStyle(fontSize: fontSize, color: Colors.white54),
+                    style: TextStyle(fontSize: fontSize, color: Colors.white54),
                   ),
                 ),
               ],
