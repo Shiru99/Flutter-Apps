@@ -1,0 +1,50 @@
+{
+    "name": "Bima Sakti",
+    "location": "Tanjung Pinang",
+    "socialMedia": [
+      {
+        "platform": "LinkedIn",
+        "primaryColor": "0xFF2196F3",
+        "link": "https://www.linkedin.com/in/shriram-ghadge"
+      },
+      {
+        "platform": "Dribbble",
+        "primaryColor": "0xFFFF9800",
+        "link": "https://github.com/Shiru99"
+      },
+      {
+        "platform": "Twitter",
+        "primaryColor": "0xFF448AFF",
+        "link": "https://www.linkedin.com/in/shriram-ghadge"
+      },
+      {
+        "platform": "Instagram",
+        "primaryColor": "0xFFE91E63",
+        "link": "https://github.com/Shiru99"
+      }
+    ],
+    "profileImage": "assets/images/profile.png",
+    "aboutMe": "I am a UI designer with a passion for creating intuitive and visually appealing user interfaces. I have a strong understanding of design principles and work closely with developers to bring my designs to life. I have had the opportunity to work with a variety of clients at a studio, and am always striving to improve my skills and stay up-to-date on the latest design trends",
+    "resume": "https://www.linkedin.com/in/shriram-ghadge",
+    "yearsOfExperience": 2,
+    "numberOfProjects": 54,
+    "numberOfClients": 4,
+    "uiPortfolios": [
+      {
+        "title": "Portfolio 1",
+        "imageLocation": "assets/images/UIPortfolio-1.jpeg",
+        "link": "https://github.com/Shiru99"
+      },
+      {
+        "title": "Portfolio 2",
+        "imageLocation": "assets/images/UIPortfolio-2.jpeg",
+        "link": "https://github.com/Shiru99"
+      },
+      {
+        "title": "Portfolio 3",
+        "imageLocation": "assets/images/UIPortfolio-3.jpeg",
+        "link": "https://github.com/Shiru99"
+      }
+    ]
+  }
+  
